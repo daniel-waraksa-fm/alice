@@ -11,11 +11,14 @@ topics:
   - alice
 
 environment:
-  sdk: '>=3.4.1 <4.0.0'
+  sdk: ">=3.4.1 <4.0.0"
   flutter: ">=3.3.0"
 
 dependencies:
-  alice: ^1.0.0-dev.12
+  alice:
+    git:
+      url: https://github.com/daniel-waraksa-fm/alice
+      ref: master
   dio: ^5.4.3+1
   flutter:
     sdk: flutter
