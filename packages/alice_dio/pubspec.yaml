@@ -16,10 +16,7 @@ environment:
 
 dependencies:
   alice:
-    git:
-      url: https://github.com/daniel-waraksa-fm/alice
-      ref: master
-  dio: ^5.4.3+1
+    path: ../alice
   flutter:
     sdk: flutter
 
